@@ -14,7 +14,7 @@ class BitManipulation {
     }
 
     public static long toggleBit(long n, int k) {
-        n=((n>>k)^1L);
+        n=(n^(1L<<k));
         return n;
 
     }
