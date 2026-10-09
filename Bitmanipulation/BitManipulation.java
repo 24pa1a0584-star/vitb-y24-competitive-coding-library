@@ -9,7 +9,7 @@ class BitManipulation {
     }
 
     public static long clearBit(long n, int k) {
-        n=((n&~(1L<<k)));
+        n=(n&~(1L<<k));
         return n;
     }
 
